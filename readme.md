@@ -1,4 +1,1 @@
-test
-test
-* one
-* two
+This is readme file for client-server application
