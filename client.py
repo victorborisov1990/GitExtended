@@ -30,7 +30,7 @@ def write():
             break
 
 # Choosing Nickname
-nickname = input("Type your nickname: ")
+nickname = input("Type your nickname: ")#ввод никнейма
 
 # Connecting To Server
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)# AF_INET - ipv4, SOCK_STREAM - tcp

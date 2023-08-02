@@ -115,6 +115,6 @@ receive_thread.start()
 admin_thread = threading.Thread(target=admin)
 admin_thread.start()
 
-receive_thread.join()
-admin_thread.join()
+receive_thread.join()#почему-то не хочет корректно завершать работу
+admin_thread.join()#этот тоже
 print('Goodbye')
